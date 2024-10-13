@@ -1,0 +1,23 @@
+.part4{
+    background-image: url(../../img/bg-offer.png);
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 0;
+}
+.wrapper{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 10px ;
+}
+.wrapper h2{
+    text-transform: uppercase;
+    font-size: 40px;
+    color: #fff;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    line-height: 1.2;
+}

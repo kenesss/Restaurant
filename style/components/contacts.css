@@ -1,0 +1,37 @@
+.contacts{
+    padding: 80px 11%;
+}
+.contacts_data{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contacts_data_item{
+    width: calc(25% - 20px);
+    padding: 0 30px;
+}
+.contacts_data_item p{
+    color: #fff;
+}
+.contacts_data_item a p{
+    color: #ffcc33ff;
+    font-size: 18px;
+    letter-spacing: 3px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    transition: 0.4s;
+}
+.contacts_data_item a p:hover{
+    color: #b8b8b8;
+}
+.data_icon{
+    display: flex;
+}
+.data_icon i{
+    color: #ffcc33ff;
+    margin-right: 10px;
+}
+.contacts_rw_icon i{
+    margin: 0 30px;
+    padding-bottom: 60px;
+}

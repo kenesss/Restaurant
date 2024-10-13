@@ -1,0 +1,50 @@
+.main{
+    padding: 100px 0;
+}
+.main_text{
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 10px;
+    margin-bottom: 50px;
+}
+.main_slider{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 11%;
+    margin-bottom: 20px;
+}
+.slider_item{
+    width: calc(25% - 10px);
+    text-align: center;
+}
+.slider_item img{
+    width: 280px;
+    height: 280px;
+    margin-bottom: 30px;
+    object-fit: cover;
+}
+.slider_item_text{
+    padding-right: 26px;
+}
+.slider_item p{
+    margin-bottom: 20px;
+}
+.slider_item .price{
+    color: #ffcc33ff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+}
+.main_slider_arrow{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 50px;
+}
+.main_slider_arrow i{
+    cursor: pointer;
+}
+.fa-solid {
+    color: #fff;
+    font-size: 20px;
+}
